@@ -5,8 +5,7 @@ Tracking habits
 <img width="446" height="249" alt="image" src="https://github.com/user-attachments/assets/b271fc4d-a03d-4922-be27-537d73a5cc5a" />
 
 ### Criação e conclusão de hábito
-<img width="1102" height="406" alt="image" src="https://github.com/user-attachments/assets/9892997a-ecb6-49db-bfb8-b5263d60a09e" />
-
+<img width="1122" height="485" alt="image" src="https://github.com/user-attachments/assets/02c2ac2c-a411-42e1-a5ac-8ed9243efaa9" />
 
 ### Progresso
 <img width="823" height="424" alt="image" src="https://github.com/user-attachments/assets/fd88e766-6c10-4a77-b04e-f45cbd06119d" />
