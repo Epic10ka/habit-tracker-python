@@ -48,8 +48,3 @@ Praticar lógica, resolução de problemas, reforçar conhecimento de funções,
 
 ```bash
 python h_tracker.py
-
-### Requisitos
-- Python 3.10+
-### OBS:
-O arquivo habitos.json será criado automaticamente.
