@@ -8,8 +8,8 @@ Tracking habits
 <img width="1119" height="433" alt="image" src="https://github.com/user-attachments/assets/db102768-30a5-4095-90db-c16a4a09bae9" />
 
 ### Progresso
-<img width="653" height="286" alt="image" src="https://github.com/user-attachments/assets/2697c405-1f71-4f6d-af61-e356c5bacfb2" />
-          
+<img width="823" height="424" alt="image" src="https://github.com/user-attachments/assets/fd88e766-6c10-4a77-b04e-f45cbd06119d" />
+
            Sobre:
 Criei esse pequeno software para praticar e melhorar minha lógica. Sistema simples de gestão de hábitos com persistência em JSON.
 ___
