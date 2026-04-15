@@ -2,7 +2,7 @@
 Tracking habits
 
 ### Menu principal
-<img width="446" height="249" alt="image" src="https://github.com/user-attachments/assets/b271fc4d-a03d-4922-be27-537d73a5cc5a" />
+<img width="671" height="410" alt="image" src="https://github.com/user-attachments/assets/342a8e95-83cc-46ba-b0e3-c42cdc6ff3d8" />
 
 ### Criação e conclusão de hábito
 <img width="1122" height="485" alt="image" src="https://github.com/user-attachments/assets/02c2ac2c-a411-42e1-a5ac-8ed9243efaa9" />
