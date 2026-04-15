@@ -11,14 +11,14 @@ Tracking habits
 <img width="823" height="424" alt="image" src="https://github.com/user-attachments/assets/fd88e766-6c10-4a77-b04e-f45cbd06119d" />
 
            Sobre:
-Criei esse pequeno software para praticar e melhorar minha lógica. Sistema simples de gestão de hábitos com persistência em JSON.
+Criei esse pequeno software para praticar e melhorar minha lógica de programação. Sistema simples de gestão de hábitos com persistência de dados em JSON.
 ___
            
            Conceitos aplicados:
    
 -Tratamento de erros.
     
--Data save e Data load
+-Persistência de dados (save/load)
     
 -Funções
     
@@ -42,7 +42,7 @@ Praticar lógica, resolução de problemas, reforçar conhecimento de funções,
 
     Como rodar o sistema:
 
-1• Clone esse repositório: https://github.com/Epic10ka/habit-tracker-python
+1. Clone esse repositório: https://github.com/Epic10ka/habit-tracker-python
 
 2. No terminal, execute:
 
