@@ -140,56 +140,59 @@ def no_habit():
         menu_return()
         return
 
-
-while True:
-    print('║       --------------------------------------       ║')
-    print('\033[1;97m║            Sistema de Gestão de Hábitos            ║'.center(62))
-    print('║       ´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`       ║')
-    print('║——————                                        ——————║')
-    print('║                [1] Criar Hábito                    ║')
-    print('║                [2] Listar hábitos                  ║')
-    print('║                [3] Marcar como concluído           ║')
-    print('║                [4] Ver Progresso                   ║')
-    print('║                [5] Sair                            ║')
-    print('╚————————————————————————————————————————————————————╝\033[m')
-    try:
-        option = int(input('                        > '))
-        if option == 1:
-            criar()
-
-        if option == 2:
-            if not habitos:
-                no_habit()
-            else:
-                listar()
-
-        if option == 3:
-            if not habitos:
-                no_habit()
-            else:
+def main():
+    while True:
+        print('║       --------------------------------------       ║')
+        print('\033[1;97m║            Sistema de Gestão de Hábitos            ║'.center(62))
+        print('║       ´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`       ║')
+        print('║——————                                        ——————║')
+        print('║                [1] Criar Hábito                    ║')
+        print('║                [2] Listar hábitos                  ║')
+        print('║                [3] Marcar como concluído           ║')
+        print('║                [4] Ver Progresso                   ║')
+        print('║                [5] Sair                            ║')
+        print('╚————————————————————————————————————————————————————╝\033[m')
+        try:
+            option = int(input('                        > '))
+            if option == 1:
+                criar()
+    
+            if option == 2:
+                if not habitos:
+                    no_habit()
+                else:
+                    listar()
+    
+            if option == 3:
+                if not habitos:
+                    no_habit()
+                else:
+                    print()
+                    while True:
+                        access = input('            Deseja acessar o menu? (S/N): ').strip().upper()[0]
+                        if access == 'S':
+                            concluir()
+                            break
+                        elif access == 'N':
+                            break
+    
+            if option == 4:
+                if not habitos:
+                    no_habit()
+                else:
+                    progresso()
+    
+            elif option == 5:
                 print()
-                while True:
-                    access = input('            Deseja acessar o menu? (S/N): ').strip().upper()[0]
-                    if access == 'S':
-                        concluir()
-                        break
-                    elif access == 'N':
-                        break
+                print('\033[1;97mFinalizando...\033[m'.center(64))
+                for fim in range (3, 0 ,-1):
+                    fim= '*'.center(52)
+                    sleep(0.5)
+                    print(fim)
+    
+                break
+        except ValueError:
+            print('\033[1;91mOpção inválida\033[m'.center(62))
 
-        if option == 4:
-            if not habitos:
-                no_habit()
-            else:
-                progresso()
-
-        elif option == 5:
-            print()
-            print('\033[1;97mFinalizando...\033[m'.center(64))
-            for fim in range (3, 0 ,-1):
-                fim= '*'.center(52)
-                sleep(0.5)
-                print(fim)
-
-            break
-    except ValueError:
-        print('\033[1;91mOpção inválida\033[m'.center(62))
+if __name__ == "__main__":
+    main()
