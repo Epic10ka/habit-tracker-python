@@ -35,12 +35,12 @@ Create habits
 - Python
 - JSON
   
-           Objective:
+             Objective:
 
 To practice problem-solving, strengthen understanding of functions, improve basic syntax skills, and gain experience in building simple systems.
 
 
-    Como rodar o sistema:
+    How to run it:
 
 1. Clone this repository -
 `git clone https://github.com/Epic10ka/habit-tracker-python´
