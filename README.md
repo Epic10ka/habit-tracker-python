@@ -26,7 +26,7 @@ ___
 
           Features:
    
-Create habits
+-Create habits
 -List habits
 -Mark habits as completed
 -Track progress
